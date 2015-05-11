@@ -1,0 +1,7 @@
+Start: Sat, 9 May 2015 9:00:00 
+End: Sat, 9 May 2015 13:00:00 
+Finished everything except drop down integration
+
+Start: Sun, 10 May 2015 22:00:00 
+End: Sun, 10 May 2015 23:30:00 
+Pushed live version, changed db to OSU
