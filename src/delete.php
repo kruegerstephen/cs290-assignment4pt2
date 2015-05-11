@@ -1,10 +1,11 @@
 <?php
 
-   $servername = "oniddb.cws.oregonstate.edu";
+      $servername = "oniddb.cws.oregonstate.edu";
     $username = "kruegest-db";
     $password = "FjPg4gghz9FXQqS7";
     $database = "kruegest-db";
     $dbport = 3306;
+
 
     // Create connection
     $db = new mysqli($servername, $username, $password, $database, $dbport);
@@ -25,9 +26,7 @@
     
     if ($db->query($sql) === TRUE) {
         echo "Table Deleted successfully";
-    } else {
-        echo "Error: " . $sql . "<br>" . $db->error;
-    }
+    } 
 
 
 
